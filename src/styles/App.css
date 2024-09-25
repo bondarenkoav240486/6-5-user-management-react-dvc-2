@@ -52,7 +52,6 @@ header {
     padding: 20px 80px 20px 80px;
     gap: 20px;
     border: 0px 0px 1px 0px;
-    opacity: 0px;
     border-bottom: 1px solid #000000;
     box-shadow: none !important;
 }
@@ -91,7 +90,6 @@ header a:last-child {
     padding: 60px 80px 80px 80px;
     gap: 40px;
     border: 1px 0px 0px 0px;
-    opacity: 0px;
     border: 1px solid #000000;
     margin: 88px auto;
 }
@@ -112,7 +110,6 @@ header a:last-child {
     /* width: 1080px; */
     height: 20px;
     gap: 0px;
-    opacity: 0px;
     font-family: Rubik;
     font-size: 14px;
     font-weight: 300;
@@ -126,7 +123,6 @@ header a:last-child {
     display: flex;
     flex-direction: row;
     gap: 20px;
-    opacity: 0px;
 }
 
 .MultiSelectWithSearch {
@@ -174,7 +170,6 @@ header a:last-child {
     /* gap: 10px; */
     /* border: 1px 0px 0px 0px; */
     /* border: 1px solid #C4C4C4; */
-    /* opacity: 0px; */
     /* background: url('../images/Button.png') no-repeat center cover; */
     background: url('../images/Button.png') no-repeat center;
     /* background-size: cover; */
@@ -187,7 +182,6 @@ header a:last-child {
     /* padding: 14px 112px 14px 112px; */
     gap: 10px;
     /* border: 1px 0px 0px 0px; */
-    opacity: 0px;
     border: 1px solid #C4C4C4;
     font-family: Rubik;
     font-size: 14px;
@@ -297,13 +291,12 @@ header a:last-child {
     /* top: 2px; */
     /* left: 2px; */
     /* gap: 0px; */
-    /* opacity: 0px; */
     /* background: #5E626B; */
     border: none;
     padding: 0;
     min-width: 20px;
 }
 
-/* @import './EditUsersPage.css';
-@import './popupAddUser.css'; */
+@import './EditUsersPage.css';
+@import './popupAddUser.css';
 
