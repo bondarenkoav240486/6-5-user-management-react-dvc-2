@@ -43,6 +43,22 @@ body {
 
 }
 
+button {
+    /* margin-left: auto; */
+    /* width: 150px; */
+    height: 48px;
+    padding: 14px 112px 14px 112px;
+    border: 1px solid #C4C4C4 !important;
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.20002500712871552px;
+    text-align: left;
+    text-transform: none !important;
+    color: #000;
+}
+
 header {
     /* width: 100%; */
     align-items: center;
@@ -126,7 +142,6 @@ header a:last-child {
 }
 
 .MultiSelectWithSearch {
-    /* background-color: lightblue; */
     width: 200px;
     /* height: 48px; */
     /* display: flex; */
@@ -168,7 +183,7 @@ header a:last-child {
     height: 48px;
     /* padding: 12px 0px 0px 0px; */
     /* gap: 10px; */
-    /* border: 1px 0px 0px 0px; */
+    border: none !important;
     /* border: 1px solid #C4C4C4; */
     /* background: url('../images/Button.png') no-repeat center cover; */
     background: url('../images/Button.png') no-repeat center;
@@ -178,18 +193,18 @@ header a:last-child {
 .filtersBar_addUser button.AddUser {
     margin-left: auto;
     width: 150px;
-    height: 48px;
+    /* height: 48px; */
     /* padding: 14px 112px 14px 112px; */
-    gap: 10px;
+    /* gap: 10px; */
     /* border: 1px 0px 0px 0px; */
-    border: 1px solid #C4C4C4;
-    font-family: Rubik;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 20px;
-    letter-spacing: 0.20002500712871552px;
-    text-align: left;
-    text-transform: none !important;
+    /* border: 1px solid #C4C4C4; */
+    /* font-family: Rubik; */
+    /* font-size: 14px; */
+    /* font-weight: 300; */
+    /* line-height: 20px; */
+    /* letter-spacing: 0.20002500712871552px; */
+    /* text-align: left; */
+    /* text-transform: none !important; */
     color: #000;
 }
 
@@ -216,7 +231,6 @@ header a:last-child {
     display: flex;
     padding: 28px 36px 28px 36px;
     gap: 20px;
-
 }
 
 .UsersPage .users_head {
@@ -225,21 +239,18 @@ header a:last-child {
     border-bottom: 1px solid #E3E8EE;
     /* font-weight: 700; */
     letter-spacing: 0.4000000059604645px;
-
 }
 
 .UsersPage .UserRow.users_head .th {
     font-weight: 700;
     color: #000;
     /* font-family: Karla; */
-
 }
 
 .UsersPage .UserRow .td {
     font-weight: 300;
     color: #5E626B;
     font-family: Rubik;
-
 }
 
 
