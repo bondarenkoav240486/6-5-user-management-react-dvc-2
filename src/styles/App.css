@@ -175,8 +175,8 @@ header a:last-child {
     /* border: 1px 0px 0px 0px; */
     /* border: 1px solid #C4C4C4; */
     /* opacity: 0px; */
-    /* background: url('../IMAGES/Button.png') no-repeat center cover; */
-    background: url('../IMAGES/Button.png') no-repeat center;
+    /* background: url('../images/Button.png') no-repeat center cover; */
+    background: url('../images/Button.png') no-repeat center;
     /* background-size: cover; */
 }
 
@@ -291,7 +291,7 @@ header a:last-child {
 }
 
 .UsersPage .UserRow .Actions button {
-    background: url('../IMAGES/Vector\ \(1\).svg') no-repeat center;
+    background: url('../images/Vector\ \(1\).svg') no-repeat center;
     width: 20px !important;
     height: 20px;
     /* top: 2px; */
