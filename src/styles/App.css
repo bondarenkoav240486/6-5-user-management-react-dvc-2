@@ -1,0 +1,308 @@
+@import './reset.css';
+
+@font-face {
+    font-family: 'Rubik';
+    src: url("../fonts/Rubik-Regular.eot");
+    src: local("☺"), url("../fonts/Rubik-Regular.woff") format("woff"),
+        url("../fonts/Rubik-Regular.ttf") format("truetype"),
+        url("../fonts/Rubik-Regular.svg") format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url("../fonts/Rubik-Bold.eot");
+    src: local("☺"), url("../fonts/Rubik-Bold.woff") format("woff"),
+        url("../fonts/Rubik-Bold.ttf") format("truetype"),
+        url("../fonts/Rubik-Bold.svg") format("svg");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url("../fonts/Rubik-Regular.eot");
+    src: local("☺"), url("../fonts/Rubik-Regular.woff") format("woff"),
+        url("../fonts/Rubik-Regular.ttf") format("truetype"),
+        url("../fonts/Rubik-Regular.svg") format("svg");
+    font-weight: 300;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    border-radius: 0 !important;
+}
+
+body {
+    color: #000000;
+    /* letter-spacing: 0.20002500712871552px; */
+    /* font-size: 14px !important; */
+    /* line-height: 20px; */
+
+}
+
+header {
+    /* width: 100%; */
+    align-items: center;
+    background-color: #FFFFFF !important;
+    width: Fill (1, 440px)px;
+    height: Hug (88px)px;
+    padding: 20px 80px 20px 80px;
+    gap: 20px;
+    border: 0px 0px 1px 0px;
+    opacity: 0px;
+    border-bottom: 1px solid #000000;
+    box-shadow: none !important;
+}
+
+header a {
+    width: 200px;
+    height: 48px;
+    /* padding: 14px 112px 14px 112px !important; */
+    border: 1px solid #C4C4C4 !important;
+    color: black !important;
+    font-family: Rubik !important;
+    /* font-family: "Roboto", "Helvetica", "Arial", sans-serif; */
+    font-size: 14px !important;
+    font-weight: 300 !important;
+    line-height: 20px;
+    letter-spacing: 0.20002500712871552px;
+    /* text-align: left !important; */
+    /* text-transform: lowercase !important; */
+    text-transform: none !important;
+    border-radius: 0% !important;
+}
+
+header a:last-child {
+    margin-left: 1.25rem;
+}
+
+.ceneter {
+    margin: 0 auto;
+}
+
+.container {
+    /* max-width: 1440px; */
+    width: 100%;
+    width: 1240px;
+    /* height: Hug (808px)px; */
+    padding: 60px 80px 80px 80px;
+    gap: 40px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid #000000;
+    margin: 88px auto;
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 32px;
+    /* font-family: Karla; */
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 6px;
+    /* text-align: left; */
+    text-transform: uppercase;
+}
+
+.UsersPage.container .message {
+    /* width: 1080px; */
+    height: 20px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.20002500712871552px;
+    text-align: left;
+}
+
+.filtersBar_addUser {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    opacity: 0px;
+}
+
+.MultiSelectWithSearch {
+    /* background-color: lightblue; */
+    width: 200px;
+    /* height: 48px; */
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+.MultiSelectWithSearch * {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.MultiSelectWithSearch .search * {
+    /* background-color: red;  */
+    border: 0 !important;
+}
+
+.MultiSelectWithSearch .search {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin: 0 !important; */
+    /* background-color: lightcoral; */
+    top: 0;
+    left: 0;
+    width: 80%;
+    z-index: 10;
+    height: 44px;
+    padding-left: 1rem !important;
+    margin: 2px !important;
+}
+
+.MultiSelectWithSearch .multiselect {
+    height: 48px;
+}
+
+.filtersBar_addUser button.clear_filters {
+    width: 48px;
+    height: 48px;
+    /* padding: 12px 0px 0px 0px; */
+    /* gap: 10px; */
+    /* border: 1px 0px 0px 0px; */
+    /* border: 1px solid #C4C4C4; */
+    /* opacity: 0px; */
+    /* background: url('../IMAGES/Button.png') no-repeat center cover; */
+    background: url('../IMAGES/Button.png') no-repeat center;
+    /* background-size: cover; */
+}
+
+.filtersBar_addUser button.AddUser {
+    margin-left: auto;
+    width: 150px;
+    height: 48px;
+    /* padding: 14px 112px 14px 112px; */
+    gap: 10px;
+    /* border: 1px 0px 0px 0px; */
+    opacity: 0px;
+    border: 1px solid #C4C4C4;
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.20002500712871552px;
+    text-align: left;
+    text-transform: none !important;
+    color: #000;
+}
+
+
+
+.UsersPage .Users {
+    margin-top: 48px;
+    /* background-color: lightcoral; */
+    font-size: 14px;
+    /* font-weight: 700; */
+    line-height: 20px;
+    letter-spacing: 0.20002500712871552px;
+
+    text-align: left;
+}
+
+.UsersPage .Users {
+    border: 1px solid #E3E8EE
+        /* border: 1px solid lightcoral */
+}
+
+.UsersPage .UserRow {
+    height: 80px;
+    display: flex;
+    padding: 28px 36px 28px 36px;
+    gap: 20px;
+
+}
+
+.UsersPage .users_head {
+    height: 76px;
+    /* gap: 20px; */
+    border-bottom: 1px solid #E3E8EE;
+    /* font-weight: 700; */
+    letter-spacing: 0.4000000059604645px;
+
+}
+
+.UsersPage .UserRow.users_head .th {
+    font-weight: 700;
+    color: #000;
+    /* font-family: Karla; */
+
+}
+
+.UsersPage .UserRow .td {
+    font-weight: 300;
+    color: #5E626B;
+    font-family: Rubik;
+
+}
+
+
+.UsersPage .UserRow .full_name {
+    width: 200px;
+    font-family: Rubik;
+    /* font-size: 14px; */
+    font-weight: 400;
+    /* line-height: 20px; */
+    /* letter-spacing: 0.20002500712871552px; */
+    /* text-align: left; */
+    /* background: lightcoral; */
+    color: #1B2438;
+}
+
+.UsersPage .UserRow .Department {
+    width: 404px;
+    font-family: Rubik;
+    /* font-size: 14px; */
+    font-weight: 300;
+    /* line-height: 20px; */
+    /* letter-spacing: 0.20002500712871552px; */
+    /* text-align: left; */
+    color: #5E626B;
+}
+
+.UsersPage .UserRow .Country {
+    width: 200px;
+    font-family: Rubik;
+    /* font-size: 14px; */
+    /* font-weight: 300; */
+    /* line-height: 20px; */
+    /* letter-spacing: 0.20002500712871552px; */
+    /* text-align: left; */
+}
+
+.UsersPage .UserRow .Status {
+    width: 100px;
+}
+
+.UsersPage .UserRow .Actions {
+    width: 24px;
+}
+
+.UsersPage .UserRow .Actions button {
+    background: url('../IMAGES/Vector\ \(1\).svg') no-repeat center;
+    width: 20px !important;
+    height: 20px;
+    /* top: 2px; */
+    /* left: 2px; */
+    /* gap: 0px; */
+    /* opacity: 0px; */
+    /* background: #5E626B; */
+    border: none;
+    padding: 0;
+    min-width: 20px;
+}
+
+@import './EditUsersPage.css';
+@import './popupAddUser.css';

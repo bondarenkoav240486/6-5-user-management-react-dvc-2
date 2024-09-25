@@ -1,0 +1,125 @@
+
+.user_FormControl {
+    margin-top: 96px !important;
+}
+
+.user_select {
+    width: 500px;
+    height: 48px;
+}
+
+.user_select .MuiSelect-select {
+    height: 20px;
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.20002500712871552px;
+    text-align: left;
+    color: #5E626B;
+}
+
+.company_info {
+    margin-top: 70px;
+}
+
+.company_info .subtitle {
+    font-family: Rubik;
+    font-size: 20px;
+    /* font-weight: 400; */
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #000000;
+}
+
+.company_info .row {
+    display: flex;
+    gap: 80px;
+}
+
+.company_info .row.second {
+    margin-top: 50px;
+}
+
+.company_info .row .MuiInputBase-root {
+    /* width: Fill (500px)px; */
+    height: 48px;
+    padding: 8px 12px 8px 24px;
+    gap: 12px;
+    /* border: 1px 0px 0px 0px; */
+    opacity: 0px;
+    border: 1px solid #E3E8EE;
+    color: #5E626B;
+}
+
+.company_info .row input {
+    height: 20px;
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.20002500712871552px;
+    text-align: left;
+    color: #5E626B;
+}
+
+.buttons {
+    height: 48px;
+    margin-top: 100px;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+.buttons button {
+    /* width: 100px; */
+    height: 48px;
+    /* padding: 14px 112px 14px 112px; */
+    gap: 10px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+}
+
+.buttons button.undo {
+    width: 100px;
+    /* height: 48px; */
+    /* padding: 14px 112px 14px 112px; */
+    /* gap: 10px; */
+    /* border: 1px 0px 0px 0px; */
+    /* opacity: 0px; */
+    border: 1px solid #C4C4C4;
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.20002500712871552px;
+    text-align: left;
+    color: #000;
+
+}
+.buttons button.Save:disabled {
+    color: #C4C4C4;
+    background: white;
+    /* color: black; */
+}
+.buttons button.Save {
+    width: Fixed 200px;
+    height: 48px;
+    padding: 14px 112px 14px 112px;
+    gap: 10px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid #C4C4C4;
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.20002500712871552px;
+    text-align: left;
+    /* color: #C4C4C4; */
+    background: white;
+    color: black;
+    box-shadow: none ;
+}
