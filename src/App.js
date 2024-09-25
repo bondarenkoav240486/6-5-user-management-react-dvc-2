@@ -3,9 +3,10 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import EditUserPage from './pages/EditUserPage';
 import UsersPage from './pages/UsersPage';
-import './styles/App.css'
-import './styles/EditUsersPage.css'
-import './styles/popupAddUser.css'
+// import './styles/App.css'
+import './App.css'
+// import './styles/EditUsersPage.css'
+// import './styles/popupAddUser.css'
 
 const App = () => {
     return (
