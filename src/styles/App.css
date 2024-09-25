@@ -306,6 +306,8 @@ header a:last-child {
     border: none;
     padding: 0;
     min-width: 20px;
+    border: none !important;
+
 }
 
 @import './EditUsersPage.css';
