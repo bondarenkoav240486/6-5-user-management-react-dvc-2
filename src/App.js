@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-// import Navbar from './components/Navbar';
+import Navbar from './components/Navbar';
 import EditUserPage from './pages/EditUserPage';
 import UsersPage from './pages/UsersPage';
 // import './STYLES/App.css'
@@ -8,7 +8,7 @@ import UsersPage from './pages/UsersPage';
 const App = () => {
     return (
         <Router>
-            {/* <Navbar /> */}
+            <Navbar />
             <Routes>
                 <Route path="/edit-users" element={<EditUserPage />} />
                 <Route path="/users" element={<UsersPage />} />
